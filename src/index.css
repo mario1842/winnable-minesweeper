@@ -1,0 +1,68 @@
+:root {
+  --bg-deep: #1a1410;
+  --bg-mid: #2a2118;
+  --bg-glow: #3d2e1f;
+  --wood: #5c4030;
+  --wood-light: #7a5640;
+  --lacquer: #2c1810;
+  --jade: #3d7a6a;
+  --jade-bright: #5a9e8a;
+  --jade-glow: rgba(90, 158, 138, 0.45);
+  --ivory: #f3ebe0;
+  --ivory-dim: #d4c4b0;
+  --ink: #1c1410;
+  --gold: #c4a35a;
+  --danger: #b54a3c;
+  --felt: #2f5c4a;
+  --felt-deep: #244a3c;
+  --n1: #2c6e8a;
+  --n2: #2f7a4a;
+  --n3: #b54a3c;
+  --n4: #6a4c93;
+  --n5: #a67c2d;
+  --n6: #2f6b6a;
+  --n7: #5c4030;
+  --n8: #7a5640;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-ui: 'Sora', system-ui, sans-serif;
+  --radius: 10px;
+  --cell: 32px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-ui);
+  color: var(--ivory);
+  background:
+    radial-gradient(ellipse 90% 60% at 50% -10%, var(--bg-glow), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 80% 90%, rgba(61, 122, 106, 0.18), transparent 50%),
+    linear-gradient(165deg, var(--bg-deep) 0%, var(--bg-mid) 45%, #1f1812 100%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:disabled:not(.cell) {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+#root {
+  min-height: 100dvh;
+}

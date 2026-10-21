@@ -23,6 +23,13 @@
   animation: rise-in 0.7s ease both;
 }
 
+.brand-mark {
+  width: 4.25rem;
+  height: 4.25rem;
+  margin: 0 auto 0.15rem;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.4));
+}
+
 .brand h1 {
   margin: 0;
   font-family: var(--font-display);

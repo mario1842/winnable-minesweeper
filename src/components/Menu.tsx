@@ -1,4 +1,5 @@
 import { DIFFICULTIES, type Difficulty } from '../engine/difficulty'
+import { MineIcon } from './MineIcon'
 import { SisterGames } from './SisterGames'
 
 interface MenuProps {
@@ -9,6 +10,7 @@ export function Menu({ onPick }: MenuProps) {
   return (
     <div className="menu">
       <div className="brand">
+        <MineIcon className="brand-mark" />
         <h1>
           Winnable
           <span>Minesweeper</span>

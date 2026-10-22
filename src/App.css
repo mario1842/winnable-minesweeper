@@ -174,19 +174,22 @@ a.sister-btn {
 }
 
 .mahjong-icon,
-.solitaire-icon {
+.solitaire-icon,
+.flow-icon {
   width: 1.35rem;
   height: 1.35rem;
   display: block;
 }
 
-.mahjong-icon {
+.mahjong-icon,
+.flow-icon {
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 }
 
 .sister-link .mahjong-icon,
-.sister-link .solitaire-icon {
+.sister-link .solitaire-icon,
+.sister-link .flow-icon {
   width: 1.55rem;
   height: 1.55rem;
 }

@@ -4,7 +4,7 @@ Minesweeper in the browser where **every board is guaranteed solvable**. The fir
 
 **Play online:** [https://mario1842.github.io/winnable-minesweeper/](https://mario1842.github.io/winnable-minesweeper/)
 
-Also play **[Winnable Mahjong](https://mario1842.github.io/winnable-mahjong/)** and **[Winnable Solitaire](https://mario1842.github.io/winnable-solitaire/)**.
+Also play **[Winnable Mahjong](https://mario1842.github.io/winnable-mahjong/)**, **[Winnable Solitaire](https://mario1842.github.io/winnable-solitaire/)**, and **[Flow of the Elements](https://mario1842.github.io/flow-of-the-elements/)**.
 
 ## Play locally
 
